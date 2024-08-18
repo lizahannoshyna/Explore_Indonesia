@@ -9,15 +9,26 @@ body {
 }
 
 .container {
-    width: 1170px;
+    width: 1433px;
     margin: 0px auto;
     padding: 0px 15px;
 }
 
-// untills
 
 //variables
+@import "./untills/variables";
 
 // main page webstudio
+@import "./components/header";
+@import "./components/hero";
+@import "./components/scrollspy.scss";
+@import "./components/articles";
+@import "./components/explore-and-numbers";
+@import "./components/map";
+@import "./components/video";
+@import "./components/photo-gallery";
+@import "./components/getting-there";
+@import "./components/footer";
 
 // adaptive layout
+@import "./untills/adaptive-layaut";

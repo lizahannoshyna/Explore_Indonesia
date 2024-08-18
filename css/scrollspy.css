@@ -1,0 +1,69 @@
+@charset "UTF-8";
+header {
+  position: relative;
+}
+
+section {
+  padding-top: 5%;
+  min-height: 100vh;
+  font-weight: 300;
+  color: #2a3039;
+  z-index: 1;
+  position: relative;
+  padding: 20px;
+}
+
+#mainnav {
+  position: fixed;
+  left: 70px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+.dotnav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dotnav > li {
+  margin: 0;
+  position: relative;
+  width: 2px; /* Ширина прямокутника */
+  height: 56px; /* Висота прямокутника */
+  background-color: #ccc; /* Сірий колір для звичайного стану */
+  transition: all 0.3s ease;
+}
+
+.dotnav > li.active {
+  width: 4px; /* Ширина активного прямокутника */
+  background-color: red; /* Червоний колір для активного стану */
+}
+
+.dotnav > li {
+  border-radius: 0; /* Скидаємо закруглення для прямокутників */
+}
+
+.vertical-text {
+  writing-mode: vertical-rl; /* вертикальний текст зліва направо */
+  /* або vertical-lr для вертикального тексту справа наліво */
+  transform: rotate(180deg); /* Повертає текст для читання зверху вниз */
+  white-space: nowrap; /* Забороняє перехід рядків */
+  margin-top: 20px;
+}
+
+.vertical-icon-wrap {
+  margin-top: 239px;
+}
+
+.vertical-icon__text {
+  writing-mode: vertical-rl; /* вертикальний текст зліва направо */
+  /* або vertical-lr для вертикального тексту справа наліво */
+  transform: rotate(180deg); /* Повертає текст для читання зверху вниз */
+  white-space: nowrap; /* Забороняє перехід рядків */
+  margin-top: 25px;
+}
