@@ -1,20 +1,4 @@
 @charset "UTF-8";
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Teko", sans-serif;
-  margin: 0;
-}
-
-.container {
-  width: 1433px;
-  margin: 0px auto;
-  padding: 0px 15px;
-}
-
 header {
   position: relative;
 }
