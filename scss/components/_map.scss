@@ -1,0 +1,57 @@
+@import '_text-styles.scss';
+
+.map {
+    background-image: url(../../img_desktop_1x_png/map_bg_desktop-1x-png.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+
+    &__header {
+        @include H3;
+        color: black;
+        
+        width: 614px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 249px;
+        
+        
+    }
+    
+    &__desc {
+        @include Paragraph-Light;
+        color: #6F7787;
+
+        width: 470px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 32px;
+        
+    }
+
+    &__btn {
+        @include Mobile-Paragraph;
+        color: white;
+
+        width: 210px;
+        height: 64px;
+        border: none;
+        border-radius: 122px;
+        background-color: #DD2242;
+        cursor: pointer;
+        
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 36px;
+
+        transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover {
+            background-color: #C1213D;
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+}
