@@ -1,29 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore Indonesia</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Teko:wght@300..700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="css/normilize.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Teko:wght@300..700&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="css/normilize.css" />
+    <link rel="stylesheet" href="icomoon/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
-    <section>
 
-    </section>
-    <section>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <div class="container">
+            <img class="header__logo" src="img_desktop_1x_png/hero_logo_desktop-1x-png.png" alt="logo" />
+            <ul class="nav">
+                <li class="nav__item">
+                    <a class="nav__link" href="#"></a>DESTINATIONS
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#"></a>EXPERIENCES
+                </li>
+                <li class="nav__item"><a class="nav__link" href="#"></a>ABOUT</li>
+                <li class="nav__item"><a class="nav__link" href="#"></a>GALLERY</li>
+            </ul>
+            <div class="header_menu">
+                <ul class="header__social-networks">
+                    <li class="header__social-item"><a class="header__social-link" href="#"><span
+                                class="icon-search-icon header-icon"></span></a>
+                    </li>
+                    <li class="header__social-item"><a class="header__social-link" href="#"><span
+                                class="icon-burger-icon header-icon"></span></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Початок секції hero -->
+            <section class="hero" id="hero" data-section-number="01">
+                <h1 class="hero__header">Explore Indonesia</h1>
+                <button class="hero__button" type="submit">Start travelling</button>
+                <!-- Початок секції перегляду пропозицій -->
+                <div class="view-offers">
+                    <div class="view-offers__item">
+                        <p class="item__number">01</p>
+                        <h3 class="item__title">Title here</h3>
+                        <p class="item__desc">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                    </div>
+                    <div class="view-offers__item">
+                        <p class="item__number">02</p>
+                        <h3 class="item__title">Title here</h3>
+                        <p class="item__desc">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                    </div>
+                    <div class="view-offers__item">
+                        <p class="item__number">03</p>
+                        <h3 class="item__title">Title here</h3>
+                        <p class="item__desc">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                    </div>
+                    <div class="view-offers__item">
+                        <img src="img_desktop_1x_png/hero_video_desktop-1x-png.png" alt="video">
+                    </div>
+                </div>
+            </section>
+            <!-- Навігація Scrollspy -->
+            <nav id="mainnav">
+                <ul class="dotnav">
+                    <li><a href="#hero" class="dotnav-link"></a></li>
+                    <li><a href="#articles" class="dotnav-link"></a></li>
+                    <li><a href="#explore-and-numbers" class="dotnav-link"></a></li>
+                    <li><a href="#map" class="dotnav-link"></a></li>
+                    <li><a href="#video" class="dotnav-link"></a></li>
+                    <li><a href="#gallery" class="dotnav-link"></a></li>
+                    <li><a href="#getting-there" class="dotnav-link"></a></li>
+                </ul>
+                <p class="vertical-text">01</p>
+                <div class="vertical-icon-wrap">
+                    <a href="https://x.com/?lang=uk" class="vertical-icon__link"><p class="vertical-icon__text">Tw</p></a>
+                    <a href="https://ua.linkedin.com/" class="vertical-icon__link"><p class="vertical-icon__text">In</p></a>
+                    <a href="https://www.facebook.com/?locale=uk_UA" class="vertical-icon__link"><p class="vertical-icon__text">Fb</p></a>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-    </section>
-    <section>
-      <h1>Nazar</h1>
-    </section>
-    <section>
-        
-    </section>
+    <!-- MAIN -->
+    <main>
+        <!--секції з ID-->
+        <!-- Початок секції articles -->
+        <section class="articles" id="articles" data-section-number="02">
+            <div class="container">
+                <div class="articles__item">
+                    <img src="img_desktop_1x_png/article_walkways_desktop-1x-png.png" alt="img">
+                    <div class="articles__text">
+                        <h2 class="articles__title">The walkways of Indonesia spellbind</h2>
+                        <p class="articles__desc">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce
+                            commodo magna et libero mollis rhoncus. </p>
+                        <button class="articles__btn">Learn More</button>
+                    </div>
+                </div>
+                <div class="articles__item">
+                    <img src="img_desktop_1x_png/article_beaches_desktop-1x-png.png" alt="img">
+                    <div class="articles__text">
+                        <h2 class="articles__title">Perfect beaches exude relaxation and fun</h2>
+                        <p class="articles__desc">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce
+                            commodo magna et libero mollis rhoncus. </p>
+                        <button class="articles__btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Початок секції explore-and-numbers -->
+        <section class="explore-and-numbers" id="explore-and-numbers" data-section-number="03">
+            <div class="container">
+                <div class="explore-our-secrets">
+                    <h2 class="explore-our-secrets-title">Explore Our Secrets</h2>
+                    <div class="explore-our-secrets-img-wrap">
+                        <img src="img_desktop_1x_png/explore-our-secrets_item-1_desktop-1x-png.png" alt="img">
+                        <img src="img_desktop_1x_png/explore-our-secrets_item-2_desktop-1x-png.png" alt="img">
+                        <img src="img_desktop_1x_png/explore-our-secrets_item-3_desktop-1x-png.png" alt="img">
+                    </div>
+                </div>
+                <div class="by-the-numbers">
+                    <div class="by-the-numbers_title-wrap">
+                        <h2 class="by-the-numbers__title">By The Numbers</h2>
+                        <p class="by-the-numbers__title-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Fusce commodo magna et libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="statistic">
+                        <div class="statistic__item">
+                            <div class="statistic__title">100+</div>
+                            <div class="statistic__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                                commodo magna et libero.</div>
+                        </div>
+                        <div class="statistic__item">
+                            <div class="statistic__title">43,000+</div>
+                            <div class="statistic__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                                commodo.</div>
+                        </div>
+                        <div class="statistic__item">
+                            <div class="statistic__title">30+</div>
+                            <div class="statistic__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                                commodo magna et libero.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Початок секції map -->
+        <section class="map" id="map" data-section-number="04">
+            <div class="container">
+                <h2 class="map__header">Our hills and valleys are like nothing you’ve seen.</h2>
+                <p class="map__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet magna
+                    commodo, tempus dolor sit amet, laoreet elit. Donec mauris tortor.</p>
+                <button class="map__btn">Learn More</button>
+            </div>
+        </section>
+        <!-- Початок секції video -->
+        <section class="video" id="video" data-section-number="05">
+            <div class="container">
+                <h2 class="video__header">Live a life like you wouldn’t imagine, experience a life you wouldn’t expect.
+                </h2>
+                <img src="img_desktop_1x_png/video_preview-main_desktop-1x-png.png" alt="preview"
+                    class="video__preview-big">
+                <div class="peview__wrap">
+                    <div class="peview-left__wrap">
+                        <img src="img_desktop_1x_png/video_preview-left_desktop-1x-png.png" alt="preview"
+                            class="preview-left__img">
+                        <h4 class="preview__title preview__title-left">In The Country</h4>
+                        <p class="preview__desc preview__desc-left">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Phasellus dapibus mauris in lectus tempus.</p>
+                    </div>
+                    <div class="peview-right__wrap">
+                        <img src="img_desktop_1x_png/video_preview-right_desktop-1x-png.png" alt="preview"
+                            class="preview-right__img">
+                        <h4 class="preview__title preview__title-right">In The City</h4>
+                        <p class="preview__desc preview__desc-right">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Phasellus dapibus mauris in.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Початок секції gallery -->
+        <section class="gallery" id="gallery" data-section-number="06">
+            <div class="container">
+                <div class="gallery__title-wrap">
+                    <h2 class="gallery__title">Photo Gallery</h2>
+                    <p class="gallery__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus
+                        mauris in lectus tempus, eget tincidunt.</p>
+                </div>
+                <div class="gallery__img-wrap">
+                    <img src="img_desktop_1x_png/gellery_photo-1-vertical_desktop-1x-png.png" alt="gallery img"
+                        class="gallery__img">
+                    <img src="img_desktop_1x_png/gellery_photo-1-horizontal_desktop-1x-png.png" alt="gallery img"
+                        class="gallery__img">
+                    <img src="img_desktop_1x_png/gellery_photo-2-horizontal_desktop-1x-png.png" alt="gallery img"
+                        class="gallery__img">
+                    <img src="img_desktop_1x_png/gellery_photo-2-vertical_desktop-1x-png.png" alt="gallery img"
+                        class="gallery__img">
+                    <img src="img_desktop_1x_png/gellery_photo-top_desktop-1x-png.png" alt="gallery img"
+                        class="gallery__img">
+                    <img src="img_desktop_1x_png/gellery_photo-top_bottom-1x-png.png" alt="gallery img"
+                        class="gallery__img">
+                </div>
+            </div>
+        </section>
+        <!-- Початок секції getting-there -->
+        <section class="getting-there" id="getting-there" data-section-number="07">
+            <div class="container">
+                <h2 class="getting-there__header">Getting there</h2>
+                <div class="getting-there__item step-one">
+                    <img src="img_desktop_1x_png/getting-there_step-one_desktop-1x-png.png" alt="step one">
+                    <div class="text-wrap">
+                        <h4 class="step__title step__title-one">Bookings your flights</h4>
+                        <p class="step__desc step__desc-one">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed euismod orci
+                            dictum faucibus malesuada. Praesent sed eros tincidunt, viverra neque auctor, lobortis enim.
+                        </p>
+                    </div>
+                    <div class="getting-there__item step-two">
+                        <img src="img_desktop_1x_png/getting-there_step-two_desktop-1x-png.png" alt="step two">
+                        <div class="text-wrap">
+                            <h4 class="step__title step__title-two">Choosing your hotel</h4>
+                            <p class="step__desc step__desc-two">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed
+                                euismod orci dictum faucibus malesuada. Praesent sed eros tincidunt, viverra neque
+                                auctor, lobortis enim.</p>
+                        </div>
+                    </div>
+                    <div class="tavelling-there">
+                        <img src="img_desktop_1x_png/getting-there_preview_desktop-1x-png.png" alt="img"
+                            class="travelling-there__img">
+                        <div class="travelling-there__text-wrap">
+                            <h4 class="travelling-there__title">Travelling there</h4>
+                            <p class="travelling-there__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Phasellus dapibus mauris in lectus tempus, eget tincidunt.</p>
+                        </div>
+                    </div>
+                    <div class="getting-there__item step-three">
+                        <img src="img_desktop_1x_png/getting-there_step-three_desktop-1x-png.png" alt="step three">
+                        <div class="text-wrap">
+                            <h4 class="step__title step__title-two">Planning your experiences</h4>
+                            <p class="step__desc step__desc-two">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. </p>
+                        </div>
+                        <button class="getting-there__btn" type="submit">Learn More</button>
+                    </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer" data-section-number="08">
+        <div class="container">
+            <img src="img_desktop_1x_png/footer_header_desktop-1x-png.png" alt="logo" class="footer-logo">
+            <ul class="footer-nav">
+                <li class="footer-nav__item"><a href="#" class="footer-nav__link"></a>About</li>
+                <li class="footer-nav__item"><a href="#" class="footer-nav__link"></a>Pricing</li>
+                <li class="footer-nav__item"><a href="#" class="footer-nav__link"></a>Company</li>
+                <li class="footer-nav__item"><a href="#" class="footer-nav__link"></a>Blog</li>
+            </ul>
+            <ul class="footer__social-networks">
+                <li class="footer__social-item"><a class="footer__social-link" href="#"><span
+                            class="icon-facebook footer-icon"></span></a>
+                </li>
+                <li class="footer__social-item"><a class="footer__social-link" href="#"><span
+                            class="icon-linkedin footer-icon"></span></a>
+                </li>
+                <li class="footer__social-item"><a class="footer__social-link" href="#"><span
+                            class="icon-google footer-icon"></span></a>
+                </li>
+            </ul>
+            <p class="footer-copyright">Copyright &copy; 2019</p>
+        </div>
+    </footer>
+    <script src="js/scrollspy.js"></script>
+>>>>>>> Stashed changes
 </body>
+
 </html>
