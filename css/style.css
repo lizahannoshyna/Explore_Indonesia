@@ -137,3 +137,77 @@ section {
   background-color: #C1213D;
   transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.video {
+  background-image: url(../../img_desktop_1x_png/hugo-matilla-EFuCATqfblI-unsplash.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+.video__header {
+  font-family: "DM Sans";
+  font-size: 42px;
+  line-height: 50px;
+  font-weight: bold;
+  color: white;
+  width: 1056px;
+  text-align: center;
+  margin: 130px auto;
+}
+
+.video__preview-big {
+  display: block;
+  margin: 0 auto;
+}
+
+.peview__wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 125px auto;
+  margin-left: 120px;
+  width: 1284.74px;
+  height: 151px;
+}
+.peview__wrap .peview-left__wrap {
+  display: flex;
+}
+.peview__wrap .peview-left__wrap .preview-text__wrap-left {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 42px;
+}
+.peview__wrap .peview-left__wrap .preview-text__wrap-left .preview__desc-left {
+  width: 334px;
+  letter-spacing: 1px;
+}
+.peview__wrap .peview-right__wrap {
+  display: flex;
+}
+.peview__wrap .peview-right__wrap .preview-text__wrap-right {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40px;
+}
+.peview__wrap .peview-right__wrap .preview-text__wrap-right .preview__desc-right {
+  width: 323px;
+  letter-spacing: 1.5px;
+}
+.peview__wrap .preview__title {
+  font-family: "DM Sans";
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: bold;
+  color: white;
+}
+.peview__wrap .preview__desc {
+  font-family: "DM Sans";
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: white;
+  opacity: 70%;
+  width: 334px;
+  text-align: left;
+}
