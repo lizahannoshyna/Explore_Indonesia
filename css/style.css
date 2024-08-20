@@ -15,8 +15,12 @@ body {
 }
 
 .header {
+<<<<<<< Updated upstream
   background-image: url("/img/img_desktop_2x_png/hero_bg_descktop-2x-png.png");
   background-size: cover;
+=======
+  background-image: url("/img/img_desktop_1x_png/");
+>>>>>>> Stashed changes
 }
 
 .nav {
@@ -27,6 +31,7 @@ body {
 
 .nav__item {
   margin-left: 10px;
+<<<<<<< Updated upstream
 }
 
 .hero__header {
@@ -34,4 +39,7 @@ body {
   color: #ffffff;
   font-size: 120px;
   width: 267px;
+=======
+  color: #ffffff;
+>>>>>>> Stashed changes
 }
