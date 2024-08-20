@@ -14,6 +14,11 @@ body {
   padding: 0px 15px;
 }
 
+.header {
+  background-image: url("/img/img_desktop_2x_png/hero_bg_descktop-2x-png.png");
+  background-size: cover;
+}
+
 .nav {
   display: flex;
   justify-content: flex-start;
@@ -22,4 +27,11 @@ body {
 
 .nav__item {
   margin-left: 10px;
+}
+
+.hero__header {
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 120px;
+  width: 267px;
 }
