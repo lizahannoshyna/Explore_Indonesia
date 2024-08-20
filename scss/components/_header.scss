@@ -1,10 +1,7 @@
 .header {
-<<<<<<< Updated upstream
     background-image: url('/img/img_desktop_2x_png/hero_bg_descktop-2x-png.png');
     background-size: cover;
-=======
-    background-image: url('/img/img_desktop_1x_png/');
->>>>>>> Stashed changes
+    position: relative;
 }
 .nav {
     display: flex;
@@ -12,6 +9,8 @@
     list-style: none;
 }
 .nav__item {
-    margin-left: 10px;
+    margin-left: 62px;
     color: $main;
+    font-size: 18px;
+    font-weight: 700;
 }
