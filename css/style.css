@@ -9,7 +9,17 @@ body {
 }
 
 .container {
-  width: 1170px;
+  width: 1433px;
   margin: 0px auto;
   padding: 0px 15px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.nav__item {
+  margin-left: 10px;
 }
