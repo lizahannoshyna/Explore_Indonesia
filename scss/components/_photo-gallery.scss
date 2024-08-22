@@ -1,0 +1,23 @@
+.gallery{
+    padding: 177px 0 229px 0;
+}
+.gallery__title-wrap {
+    text-align: center;
+}
+.gallery__title {
+    @include H2;
+}
+.gallery__desc {
+    @include Paragraph;
+    color: #6F7787;
+}
+.gallery__img-wrap {
+    margin-top: 71px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    height: 800px;
+}

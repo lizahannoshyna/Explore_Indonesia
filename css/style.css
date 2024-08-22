@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Teko", sans-serif;
+  font-family: "DM Sans";
   margin: 0;
 }
 
@@ -282,6 +282,40 @@ section {
   text-align: left;
 }
 
+.gallery {
+  padding: 177px 0 229px 0;
+}
+
+.gallery__title-wrap {
+  text-align: center;
+}
+
+.gallery__title {
+  font-family: "DM Sans";
+  font-size: 60px;
+  line-height: 150%;
+  font-weight: bold;
+}
+
+.gallery__desc {
+  font-family: "DM Sans";
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #6F7787;
+}
+
+.gallery__img-wrap {
+  margin-top: 71px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  height: 800px;
+}
+
 .getting-there {
   background-color: #DCE8F2;
   padding: 119px 0 117px 0;
@@ -363,4 +397,5 @@ section {
   border-radius: 122px;
   margin-left: 105px;
   margin-top: 35px;
+  cursor: pointer;
 }
