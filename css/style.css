@@ -51,13 +51,13 @@ section {
   position: relative;
   width: 2px; /* Ширина прямокутника */
   height: 56px; /* Висота прямокутника */
-  background-color: #ccc; /* Сірий колір для звичайного стану */
+  background-color: #fff; /* Сірий колір для звичайного стану */
   transition: all 0.3s ease;
 }
 
 .dotnav > li.active {
   width: 4px; /* Ширина активного прямокутника */
-  background-color: red; /* Червоний колір для активного стану */
+  background-color: #DD2242; /* Червоний колір для активного стану */
 }
 
 .dotnav > li {
@@ -70,7 +70,7 @@ section {
   transform: rotate(180deg); /* Повертає текст для читання зверху вниз */
   white-space: nowrap; /* Забороняє перехід рядків */
   margin-top: 20px;
-  color: #e0dfdf;
+  color: #fff;
 }
 
 .vertical-icon-wrap {
@@ -86,7 +86,7 @@ section {
 }
 
 .vertical-icon__link {
-  color: #e0dfdf;
+  color: #fff;
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -222,4 +222,87 @@ section {
   opacity: 70%;
   width: 334px;
   text-align: left;
+}
+
+.getting-there {
+  background-color: #DCE8F2;
+  padding: 119px 0 117px 0;
+}
+
+.getting-there__header {
+  font-family: "DM Sans";
+  font-size: 60px;
+  line-height: 150%;
+  font-weight: bold;
+}
+
+.getting-there__item {
+  padding-top: 80px;
+}
+
+.text-wrap {
+  max-width: 1038px;
+  padding-top: 28px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.step-img {
+  margin-right: 45px;
+}
+
+.step__title {
+  font-family: "DM Sans";
+  font-size: 26.4px;
+  line-height: 41.1px;
+  font-weight: bold;
+}
+
+.step__desc {
+  font-family: "DM Sans";
+  font-size: 23px;
+  line-height: 162%;
+  font-weight: 400;
+  color: rgba(21, 20, 57, 0.4);
+}
+
+.tavelling-there {
+  margin-left: 105px;
+  padding-top: 93px;
+}
+
+.travelling-there__text-wrap {
+  max-width: 446px;
+  padding-left: 45px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.travelling-there__title {
+  font-family: "DM Sans";
+  font-size: 26.4px;
+  line-height: 41.1px;
+  font-weight: bold;
+}
+
+.travelling-there__desc {
+  font-family: "DM Sans";
+  font-size: 23px;
+  line-height: 162%;
+  font-weight: 400;
+  color: rgba(21, 20, 57, 0.4);
+}
+
+.getting-there__btn {
+  font-family: "DM Sans";
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: bold;
+  padding: 18px 56px;
+  color: #ffffff;
+  background-color: #DD2242;
+  border: none;
+  border-radius: 122px;
+  margin-left: 105px;
+  margin-top: 35px;
 }
