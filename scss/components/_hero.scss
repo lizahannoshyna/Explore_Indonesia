@@ -1,7 +1,9 @@
+
 .hero__header {
     font-weight: 900;
     color: $main;
     font-size: 120px;
+    line-height: 130px;
     width: 267px;
 }
 .hero__button {
@@ -20,14 +22,12 @@
     background-color: #000000cb;
     position: absolute;
     bottom: 0;
-    right: 0;
+    width: 1636px;
+    height: 210px;
 }
 .item__title {
     color: $main;
 }
 .item__desc {
     color: $light-text;
-}
-.view-offers__item {
-    margin-bottom: 49px;
 }

@@ -1,5 +1,5 @@
 .header {
-    background-image: url('/img/img_desktop_2x_png/hero_bg_descktop-2x-png.png');
+    background-image: url('/img_desktop_1x_png/hero_bg_desktop-2x-png.png');
     background-size: cover;
     position: relative;
 }
@@ -7,11 +7,25 @@
     display: flex;
     justify-content: flex-start;
     list-style: none;
+    padding-top: 38px;
 }
 .nav__item {
     margin-left: 62px;
     color: $main;
     font-size: 18px;
     font-weight: 700;
+}
+.header__logo {
+   position: absolute;
+   left: 28px;
+   top: 28px;
+}
+.header__social-networks {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 38px;
+    right: 141px;
+    gap: 40px;
 }
 
