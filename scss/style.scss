@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: "Teko", sans-serif;
+    font-family: 'DM Sans';
     margin: 0;
 }
 
@@ -14,9 +14,9 @@ body {
     padding: 0px 15px;
 }
 
-
 //variables
 @import "./untills/variables";
+@import "./components/text-styles";
 
 // main page webstudio
 @import "./components/header";

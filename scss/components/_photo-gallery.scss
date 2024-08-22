@@ -1,0 +1,9 @@
+.gallery__title{
+    @include H3;
+    text-align: center;
+}
+.gallery__desc{
+    @include Paragraph-Light ;
+    text-align: center;
+    color: $light-text;
+}

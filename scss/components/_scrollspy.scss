@@ -36,13 +36,13 @@ section {
     position: relative;
     width: 2px; /* Ширина прямокутника */
     height: 56px; /* Висота прямокутника */
-    background-color: #ccc; /* Сірий колір для звичайного стану */
+    background-color: $main; /* Сірий колір для звичайного стану */
     transition: all 0.3s ease;
 }
 
 .dotnav > li.active {
     width: 4px; /* Ширина активного прямокутника */
-    background-color: red; /* Червоний колір для активного стану */
+    background-color: $main-red; /* Червоний колір для активного стану */
 }
 
 .dotnav > li {
@@ -57,6 +57,7 @@ section {
     transform: rotate(180deg); /* Повертає текст для читання зверху вниз */
     white-space: nowrap; /* Забороняє перехід рядків */
     margin-top: 20px;
+    color: $main;
 }
 
 .vertical-icon-wrap{
@@ -69,4 +70,12 @@ section {
     transform: rotate(180deg); /* Повертає текст для читання зверху вниз */
     white-space: nowrap; /* Забороняє перехід рядків */
     margin-top: 25px;
+}
+
+.vertical-icon__link{
+    color: $main;
+    text-decoration: none;
+    &:hover{
+        color:$main-red;
+    }
 }
