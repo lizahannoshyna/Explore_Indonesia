@@ -15,6 +15,25 @@ body {
   padding: 0px 15px;
 }
 
+.header {
+  background-image: url("/img/img_desktop_2x_png/hero_bg_descktop-2x-png.png");
+  background-size: cover;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.nav__item {
+  margin-left: 62px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .hero__header {
   font-weight: 900;
   color: #ffffff;
