@@ -15,6 +15,64 @@ body {
   padding: 0px 15px;
 }
 
+.header {
+  background-image: url("/img/img_desktop_2x_png/hero_bg_descktop-2x-png.png");
+  background-size: cover;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.nav__item {
+  margin-left: 62px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.hero__header {
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 120px;
+  width: 267px;
+}
+
+.hero__button {
+  width: 272px;
+  height: 82px;
+  background-color: #DD2242;
+  color: #ffffff;
+  border: 0;
+  border-radius: 200px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.view-offers {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.7960784314);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.item__title {
+  color: #ffffff;
+}
+
+.item__desc {
+  color: #939393;
+}
+
+.view-offers__item {
+  margin-bottom: 49px;
+}
+
 header {
   position: relative;
 }

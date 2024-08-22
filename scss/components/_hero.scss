@@ -1,0 +1,33 @@
+.hero__header {
+    font-weight: 900;
+    color: $main;
+    font-size: 120px;
+    width: 267px;
+}
+.hero__button {
+    width: 272px;
+    height: 82px;
+    background-color: $main-red;
+    color: $main;
+    border: 0;
+    border-radius: 200px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.view-offers {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000cb;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.item__title {
+    color: $main;
+}
+.item__desc {
+    color: $light-text;
+}
+.view-offers__item {
+    margin-bottom: 49px;
+}
