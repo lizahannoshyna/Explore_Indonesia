@@ -31,4 +31,13 @@ body {
 @import "./components/footer";
 
 // adaptive layout
-@import "./untills/adaptive-layaut";
+@import "./adaptiv-layaut/header-adapting";
+@import "./adaptiv-layaut/hero-adapting";
+@import "./adaptiv-layaut/scrollspy-adapting";
+@import "./adaptiv-layaut/articles-adapting";
+@import "./adaptiv-layaut/explore-and-numbers-adapting";
+@import "./adaptiv-layaut/map-adapting";
+@import "./adaptiv-layaut/video-adapting";
+@import "./adaptiv-layaut/photo-gallery-adapting";
+@import "./adaptiv-layaut/getting-there-adapting";
+@import "./adaptiv-layaut/footer-adapting";
