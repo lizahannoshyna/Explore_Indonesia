@@ -24,20 +24,24 @@ body {
 .nav {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   list-style: none;
   padding-top: 38px;
+  margin-bottom: 195px;
 }
 
 .nav__item {
   margin-left: 62px;
   color: #ffffff;
+  font-family: "DM Sans";
   font-size: 18px;
-  font-weight: 700;
+  line-height: 150%;
+  font-weight: bold;
 }
 
 .header__logo {
   position: absolute;
-  left: 28px;
+  left: 60px;
   top: 28px;
 }
 
@@ -75,16 +79,31 @@ body {
   background-color: rgba(0, 0, 0, 0.7960784314);
   position: absolute;
   bottom: 0;
-  width: 1636px;
+  width: 1237px;
   height: 210px;
+  align-items: center;
+}
+
+.view-offers__item img {
+  position: absolute;
+  bottom: 0;
 }
 
 .item__title {
   color: #ffffff;
+  font-family: "DM Sans";
+  font-size: 26.4px;
+  line-height: 41.1px;
+  font-weight: bold;
 }
 
 .item__desc {
   color: #939393;
+  font-family: "DM Sans";
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  width: 210px;
 }
 
 header {
