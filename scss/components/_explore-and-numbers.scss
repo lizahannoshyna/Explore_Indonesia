@@ -7,8 +7,14 @@
 .explore-our-secrets-img-wrap {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 28px;
+  gap: 31px;
 }
 
+.icon__wrap {
+  display: flex;
+  justify-content: center;
+}
 .explore-our-secrets-title {
   text-align: center;
   font-size: 50px;
