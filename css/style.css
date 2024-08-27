@@ -195,7 +195,7 @@ section {
 }
 
 .map {
-  background-image: url(../../img_desktop_1x_png/map_bg_desktop-1x-png.png);
+  background-image: url("../img_desktop_1x_png/map_bg_desktop-1x-png.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -249,7 +249,7 @@ section {
 }
 
 .video {
-  background-image: url(../../img_desktop_1x_png/hugo-matilla-EFuCATqfblI-unsplash.png);
+  background-image: url(../img_desktop_1x_png/hugo-matilla-EFuCATqfblI-unsplash.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
