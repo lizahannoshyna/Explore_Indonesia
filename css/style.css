@@ -536,6 +536,7 @@ section {
   margin-left: 105px;
   margin-top: 35px;
   cursor: pointer;
+<<<<<<< Updated upstream
 }
 
 @media (max-width: 1300px) {
@@ -608,4 +609,6 @@ section {
   .statistic__desc {
     width: 314px;
   }
+=======
+>>>>>>> Stashed changes
 }
