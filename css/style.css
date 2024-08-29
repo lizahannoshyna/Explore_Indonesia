@@ -536,9 +536,9 @@ section {
   margin-left: 105px;
   margin-top: 35px;
   cursor: pointer;
+<<<<<<< Updated upstream
 }
 
-/* Extra Large: 1200px - 1300px */
 @media (max-width: 1300px) {
   .container {
     max-width: 1140px;
@@ -609,4 +609,6 @@ section {
   .statistic__desc {
     width: 314px;
   }
+=======
+>>>>>>> Stashed changes
 }
