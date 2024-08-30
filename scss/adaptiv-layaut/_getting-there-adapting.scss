@@ -1,0 +1,134 @@
+/* Extra Large: 1200px - 1300px */
+@media (max-width: 1300px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* Large: 992px - 1199px */
+@media (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+/* Medium: 768px - 991px */
+@media (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+  .container {
+    max-width: 540px;
+  }
+  /* загальні стилі */
+  .getting-there {
+    padding: 60px 0;
+  }
+  .getting-there__header{
+      text-align: center;
+  }
+/*картинки*/
+  .travelling-there__img{
+    width: 314px;
+  }
+  .step-img, .travelling-there__img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+/* пункти */
+    .getting-there__item {
+      text-align: center;
+      padding-top: 40px;
+      margin: 0;
+    }
+    .tavelling-there {
+      text-align: center;
+      padding-top: 40px;
+      margin-left: 0;
+    }
+/* текст */
+    .text-wrap, .travelling-there__text-wrap {
+      max-width: 100%;
+      padding-top: 20px;
+      display: block;
+    }
+    .travelling-there__text-wrap{
+      padding: 0;
+    }
+    .step__desc {
+      width: 314px;
+      margin: 0 auto;
+    }
+
+    .travelling-there__desc {
+      width: 314px;
+      margin: 0 auto;
+      text-align: center;
+    }
+/* кнопка */
+    .getting-there__btn {  
+      text-align: center;
+    }
+}
+
+/* Extra small: 0px (320px) - 575px */
+@media (max-width: 575px) {
+  .container {
+    padding: 0 15px;
+    max-width: 100%;
+  }
+/* загальні стилі */
+  .getting-there {
+    padding: 60px 0;
+  }
+  .getting-there__header{
+      text-align: center;
+  }
+/*картинки*/
+  .travelling-there__img{
+    width: 314px;
+  }
+  .step-img, .travelling-there__img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+/* пункти */
+    .getting-there__item {
+      text-align: center;
+      padding-top: 40px;
+      margin: 0;
+    }
+    .tavelling-there {
+      text-align: center;
+      padding-top: 40px;
+      margin-left: 0;
+    }
+/* текст */
+    .text-wrap, .travelling-there__text-wrap {
+      max-width: 100%;
+      padding-top: 20px;
+      display: block;
+    }
+    .travelling-there__text-wrap{
+      padding: 0;
+    }
+    .step__desc {
+      width: 314px;
+      margin: 0 auto;
+    }
+
+    .travelling-there__desc {
+      width: 314px;
+      margin: 0 auto;
+      text-align: center;
+    }
+/* кнопка */
+    .getting-there__btn {  
+      text-align: center;
+    }
+
+}
