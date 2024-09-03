@@ -1,7 +1,72 @@
-.articles {
-    background-image: url(/img_desktop_1x_png/article_walkways_desktop-1x-png.png);
+.articles__item {
+    background: linear-gradient(180deg, #010A20 0%, rgba(1, 10, 32, 0) 100%), url(/img_desktop_1x_png/article_walkways_desktop-1x-png.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
+    height: 450px;
+    position: relative;
+        
+
+}
+.articles__item img {
+    height: 350px;
+    width: 500px;
+     font-size: 50%;
+     position: absolute;
+     right: 550px;
+     top: 50px;
+}
+.articles__item2 {
+    background:linear-gradient(180deg, #010A20 0%, rgba(1, 10, 32, 0) 100%), url(/img_desktop_1x_png/article_beaches_desktop-1x-png.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+}
+
+.articles__title {
+    color: white;
+    position: absolute;
+    right: 250px;
+    top: 100px;
+}
+.articles__desc {
+    color:  rgba(224, 224, 224, 1);
+    position: absolute;
+    right: 150px;
+    top: 170px;
+}
+.articles__item {
+    position: relative;
+}
+.articles__btn {
+   width: 130px;
+   height: 50px;
+    padding: 16px 24px 16px 24px;
+    border-radius: 32px ;
+    background: rgba(221, 34, 66, 1);   
+    position: absolute;
+    top: 250px;
+    left: 800px;
+
+
+
+}
+.articles__item2 {
+    position: relative;
+} .articles__desc_two {
+    position: absolute;
+    left: 270px;
+}
+.articles__title_two {
+    position: absolute;
+    left: 270px;
+}
+.articles__btn_two {
+    position: absolute;
+    left : 270px ;
+}
+.articles__item2 img {
+    position: absolute;
+    right: 150px;
 }
