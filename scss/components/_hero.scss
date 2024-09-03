@@ -1,7 +1,9 @@
+
 .hero__header {
     font-weight: 900;
     color: $main;
     font-size: 120px;
+    line-height: 130px;
     width: 267px;
 }
 .hero__button {
@@ -20,14 +22,28 @@
     background-color: #000000cb;
     position: absolute;
     bottom: 0;
-    right: 0;
+    width: 1237px;
+    height: 210px;
+    align-items: center;
+   
+    
+}
+.view-offers__item img {
+   position: absolute;
+   bottom: 0;
 }
 .item__title {
-    color: $main;
+   color: $main;
+   font-family: 'DM Sans';
+   font-size: 26.4px;
+   line-height: 41.1px;
+   font-weight: bold;
 }
 .item__desc {
     color: $light-text;
-}
-.view-offers__item {
-    margin-bottom: 49px;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    width: 210px;
 }
