@@ -187,11 +187,83 @@ section {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.articles {
-  background-image: url(/img_desktop_1x_png/article_walkways_desktop-1x-png.png);
+.articles__item {
+  background: linear-gradient(180deg, #010A20 0%, rgba(1, 10, 32, 0) 100%), url(/img_desktop_1x_png/article_walkways_desktop-1x-png.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 450px;
+  position: relative;
+}
+
+.articles__item img {
+  height: 350px;
+  width: 500px;
+  font-size: 50%;
+  position: absolute;
+  right: 550px;
+  top: 50px;
+}
+
+.articles__item2 {
+  background: linear-gradient(180deg, #010A20 0%, rgba(1, 10, 32, 0) 100%), url(/img_desktop_1x_png/article_beaches_desktop-1x-png.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+}
+
+.articles__title {
+  color: white;
+  position: absolute;
+  right: 250px;
+  top: 100px;
+}
+
+.articles__desc {
+  color: rgb(224, 224, 224);
+  position: absolute;
+  right: 150px;
+  top: 170px;
+}
+
+.articles__item {
+  position: relative;
+}
+
+.articles__btn {
+  width: 130px;
+  height: 50px;
+  padding: 16px 24px 16px 24px;
+  border-radius: 32px;
+  background: rgb(221, 34, 66);
+  position: absolute;
+  top: 250px;
+  left: 800px;
+}
+
+.articles__item2 {
+  position: relative;
+}
+
+.articles__desc_two {
+  position: absolute;
+  left: 270px;
+}
+
+.articles__title_two {
+  position: absolute;
+  left: 270px;
+}
+
+.articles__btn_two {
+  position: absolute;
+  left: 270px;
+}
+
+.articles__item2 img {
+  position: absolute;
+  right: 150px;
 }
 
 .explore-and-numbers {
@@ -536,79 +608,3 @@ section {
   margin-left: 105px;
   margin-top: 35px;
   cursor: pointer;
-<<<<<<< Updated upstream
-}
-
-@media (max-width: 1300px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-/* Large: 992px - 1199px */
-@media (max-width: 1199px) {
-  .container {
-    max-width: 960px;
-  }
-}
-/* Medium: 768px - 991px */
-@media (max-width: 991px) {
-  .container {
-    max-width: 720px;
-  }
-}
-/* Small: 576px - 767px */
-@media (max-width: 767px) {
-  .container {
-    max-width: 540px;
-  }
-}
-/* Extra small: 0px (320px) - 575px */
-@media (max-width: 575px) {
-  .container {
-    padding: 0 15px;
-    max-width: 100%;
-  }
-  .explore-our-secrets-img-wrap {
-    display: flex;
-    justify-content: center;
-    gap: 9px;
-  }
-  .explore-our-secrets-img {
-    display: none;
-  }
-  img {
-    width: 314px;
-  }
-  .icon {
-    width: 170px;
-  }
-  .statistic {
-    display: flex;
-    flex-direction: column;
-  }
-  .by-the-numbers {
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 50%;
-    bottom: 0;
-  }
-  .by-the-numbers_title-wrap {
-    display: flex;
-    flex-direction: column;
-  }
-  .by-the-numbers__title-desc {
-    width: 314px;
-  }
-  .statistic__item {
-    text-align: center;
-  }
-  .statistic__title {
-    width: 314px;
-  }
-  .statistic__desc {
-    width: 314px;
-  }
-=======
->>>>>>> Stashed changes
-}
